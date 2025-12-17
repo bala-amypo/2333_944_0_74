@@ -29,8 +29,7 @@ public class NewfileServiceImpl implements NewfileService {
 
     @Override
     public NewfileEntity getidval(Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getidval'");
+        return rep
     }
 
     @Override
