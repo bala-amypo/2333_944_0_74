@@ -64,8 +64,8 @@ public class Studentcontroller {
     public Studententity getIdVal(@PathVariable int id){
         return src.id(id);
     }
-    @PutMapping("/put")
-    public Studententity update(@PathVariable int id,@RequestBody Studententity st){
+    @PutMapping("/update/{id}")
+    public String update(@PathVariable Long id,@RequestBody Studententity st){
         return src.update(id, st);
     }
     @DeleteMapping("/delete/{id}")
