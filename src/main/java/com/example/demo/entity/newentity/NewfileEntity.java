@@ -5,10 +5,12 @@ import jakarta.validation.constraints.NotBlank;
 
 public class NewfileEntity {
     @Id
+    @GeneratedValue(strategy=GeneratedType.IDENTITY)
     private Long id;
     @NotBlank(message = "should not contain spaces")
     private String name;
-    @NotBlank(message = "should not contain spaces")
+    @NotBlank(message = "no blank allowed")
+    @Email(message="Invalid format")
     private String email;
     
 }
