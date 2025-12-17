@@ -55,4 +55,3 @@ public class NewfileEntity {
         this.email = email;
     }
 }
-}
