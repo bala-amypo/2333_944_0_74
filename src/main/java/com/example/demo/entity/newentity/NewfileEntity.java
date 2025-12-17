@@ -15,6 +15,7 @@ public class NewfileEntity {
     @GeneratedValue(strategy=GeneratedType.IDENTITY)
     private Long id;
     @NotBlank(message = "should not contain spaces")
+    @Column(unique=true)
     private String name;
     @NotBlank(message = "no blank allowed")
     @Email(message="Invalid format")
