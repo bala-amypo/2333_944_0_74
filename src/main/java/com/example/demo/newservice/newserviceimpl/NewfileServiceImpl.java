@@ -30,4 +30,9 @@ public class NewfileServiceImpl implements NewfileService {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'update'");
     }
+    @Override
+public void delete(Long id) {
+    
+}
+
 }
