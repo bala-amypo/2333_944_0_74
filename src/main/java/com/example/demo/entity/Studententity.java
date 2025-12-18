@@ -2,7 +2,7 @@ package com.example.demo.entity;
 
 
 
-public class StudentEntity {
+public class Studententity {
    
     private String name;
     private int id;
@@ -25,12 +25,12 @@ public class StudentEntity {
     public void setEmail(String email) {
         this.email = email;
     }
-    public StudentEntity(String name, int id, String email) {
+    public Studententity(String name, int id, String email) {
         this.name = name;
         this.id = id;
         this.email = email;
     }
-    public StudentEntity() {
+    public Studententity() {
     }
     
 
